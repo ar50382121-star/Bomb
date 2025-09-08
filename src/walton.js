@@ -3,7 +3,7 @@ const axios = require("axios");
 const config = {
     name: "walton",
     version: "1.0.2",
-    credits: "BLACK",
+    credits: "LIKHON AHMED",
     description: "Send OTP via Walton Plaza API",
     usages: "phone",
     cooldown: 0
