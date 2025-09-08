@@ -3,7 +3,7 @@ const axios = require("axios");
 const config = {
     name: "webgp",
     version: "1.0.1",
-    credits: "BLACK",
+    credits: "LIKHON AHMED",
     description: "Send OTP via Grameenphone Web Login API",
     usages: "phone",
     cooldown: 0
@@ -11,7 +11,7 @@ const config = {
 
 async function sendOtp(phoneNumber) {
     try {
-        // format number → must start with 0 (like 017xxxxxxx)
+       
         let formatted = phoneNumber.replace(/\D/g, "");
         if (formatted.startsWith("880")) {
             formatted = "0" + formatted.substring(3);
@@ -21,7 +21,7 @@ async function sendOtp(phoneNumber) {
 
         const url = "https://weblogin.grameenphone.com/backend/api/v1/otp";
 
-        // Headers (raw copy from your request)
+        
         const headers = {
             "Host": "weblogin.grameenphone.com",
             "Connection": "keep-alive",
@@ -42,7 +42,7 @@ async function sendOtp(phoneNumber) {
             "Cookie": "_fbp=fb.1.1756621451648.929282445802798413"
         };
 
-        // Body (JSON)
+        
         const data = {
             msisdn: formatted
         };
