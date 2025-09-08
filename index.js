@@ -5,7 +5,6 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Load all API modules from src folder
 const modules = {};
 const files = fs.readdirSync(path.join(__dirname, 'src'));
 
