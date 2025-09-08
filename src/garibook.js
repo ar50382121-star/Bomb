@@ -3,10 +3,10 @@ const axios = require("axios");
 const config = {
   name: "garibook",
   version: "1.0.0",
-  credits: "BLACK",
-  permissions: [2],
+  credits: "LIKHON AHMED",
+  permissions: [0],
   description: "Send OTP via Garibook API",
-  usage: "garibook <phone>",
+  usage: "<PHONE> <COUNT>",
   cooldowns: 0,
 };
 
