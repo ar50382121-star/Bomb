@@ -3,7 +3,7 @@ const axios = require('axios');
 const config = {
     name: "health",
     version: "1.0.0",
-    credits: "BLACK",
+    credits: "LIKHON AHMED",
     permissions: [0],
     description: "Send OTP via Medeasy health API",
     usages: "phone",
