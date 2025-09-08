@@ -11,7 +11,7 @@ const config = {
 
 async function sendOtp(phoneNumber) {
     try {
-        // ফোন নাম্বার format করা
+        
         let formatted = phoneNumber.replace(/\D/g, "");
         if (formatted.startsWith("880")) {
             formatted = formatted.substring(3);
@@ -21,7 +21,7 @@ async function sendOtp(phoneNumber) {
 
         const url = "https://waltonplaza.com.bd/api/auth/otp/create";
 
-        // Raw থেকে নেওয়া headers
+        
         const headers = {
             "host": "waltonplaza.com.bd",
             "content-length": "148",
@@ -43,7 +43,7 @@ async function sendOtp(phoneNumber) {
             "priority": "u=1, i"
         };
 
-        // Body raw এর মতো
+        
         const data = {
             auth: {
                 countryCode: "880",
