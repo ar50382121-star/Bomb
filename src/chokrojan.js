@@ -12,9 +12,8 @@ const config = {
 
 async function sendOtp(phoneNumber) {
     try {
-        const url = "https://chokrojan.com/api/v1/passenger/login/mobile";
+        const url = "https://chokrojan.com/api/v1/passenger/login/mobile"
 
-        // Raw headers exactly as provided
         const headers = {
             'Host': 'chokrojan.com',
             'Connection': 'keep-alive',
@@ -41,7 +40,6 @@ async function sendOtp(phoneNumber) {
             'Cookie': '_fbp=fb.1.1757161330722.89258153770461187'
         };
 
-        // Raw body exactly as provided
         const body = { mobile_number: phoneNumber };
 
         const response = await axios.post(url, body, { headers });
