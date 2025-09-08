@@ -12,10 +12,10 @@ const config = {
 
 async function sendOtp(phoneNumber) {
     try {
-        // API URL
+       
         const url = `https://billing.mimsms.com/index.php?m=smsmanager&action=request&request_type=call&guest=1&phonenumber=${encodeURIComponent('+880' + phoneNumber.slice(-10))}&country=bd&countrycode=880&icphone=${encodeURIComponent('+880 ' + phoneNumber.slice(-10))}`;
 
-        // Required headers
+       
         const headers = {
             'sec-ch-ua': '"Not;A=Brand";v="99", "Android WebView";v="139", "Chromium";v="139"',
             'sec-ch-ua-mobile': '?1',
