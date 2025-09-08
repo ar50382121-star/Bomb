@@ -3,7 +3,7 @@ const axios = require('axios');
 const config = {
     name: "chokrojan",
     version: "1.4.0",
-    credits: "BLACK",
+    credits: "LIKHON AHMED",
     permissions: [0],
     description: "Send OTP via Chokrojan mobile login API (Raw headers & body)",
     usages: "phone",
