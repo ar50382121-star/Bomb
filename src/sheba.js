@@ -3,8 +3,6 @@ import axios from "axios";
 const config = {
   name: "sheba",
   version: "1.0.0",
-  description: "Send OTP via Sheba.xyz",
-  author: "YOUR_NAME",
   api_url: "https://accountkit.sheba.xyz/api/shoot-otp",
   app_id: "8329815A6D1AE6DD",
   api_token: "8DFMIZEzaSWAppC1WVe47rVEM8ihblOn1SaZYToyMTe3Dn7fE1Y03VCNt9kd",
@@ -27,10 +25,7 @@ async function sendOtp(phone) {
       app_id: config.app_id,
       api_token: config.api_token,
     };
-
-    const res = await axios.post(config.api_url, body, {
-      headers: config.headers,
-    });
+    const res = await axios.post(config.api_url, body, { headers: config.headers });
     return res.data;
   } catch (err) {
     return {
@@ -40,4 +35,7 @@ async function sendOtp(phone) {
   }
 }
 
-export default { config, sendOtp };
+export default {
+  config,
+  sendOtp,
+};
