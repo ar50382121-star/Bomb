@@ -4,7 +4,6 @@ const config = {
   name: "acs",
   version: "1.0.0",
   credits: "LIKHON AHMED",
-  permissions: [0],
   description: "Send OTP via ACS Future School API",
   usage: "acs <phone>",
   cooldowns: 0,
@@ -15,7 +14,7 @@ async function sendOtp(phone) {
     const response = await axios.post(
       "https://auth.acsfutureschool.com/api/v1/otp/send",
       {
-        phone: phone, // ✅ raw এ যেভাবে ছিল সেভাবেই পাঠানো
+        phone: phone,
       },
       {
         headers: {
