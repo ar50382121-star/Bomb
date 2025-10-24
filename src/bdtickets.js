@@ -4,7 +4,6 @@ const config = {
   name: "bdtickets",
   version: "1.0.0",
   credits: "LIKHON AHMED",
-  permissions: [0],
   description: "Send OTP via BDTickets API",
   usage: "bdtickets <phone>",
   cooldowns: 0,
