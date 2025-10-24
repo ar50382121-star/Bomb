@@ -3,6 +3,7 @@ import axios from "axios";
 const config = {
   name: "sheba",
   version: "1.0.0",
+  credits: "LIKHON AHMED",
   api_url: "https://accountkit.sheba.xyz/api/shoot-otp",
   app_id: "8329815A6D1AE6DD",
   api_token: "8DFMIZEzaSWAppC1WVe47rVEM8ihblOn1SaZYToyMTe3Dn7fE1Y03VCNt9kd",
