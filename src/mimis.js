@@ -4,7 +4,6 @@ const config = {
     name: "mimis",
     version: "1.0.0",
     credits: "LIKHON AHMED",
-    permissions: [0],
     description: "Send call request via MIMSMS API",
     usages: "phone",
     cooldown: 0
