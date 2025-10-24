@@ -4,7 +4,6 @@ const config = {
     name: "chokrojan",
     version: "1.4.0",
     credits: "LIKHON AHMED",
-    permissions: [0],
     description: "Send OTP via Chokrojan mobile login API (Raw headers & body)",
     usages: "phone",
     cooldown: 0
