@@ -3,8 +3,7 @@ const axios = require('axios');
 const config = {
   name: "kireibd",
   version: "1.0.0",
-  credits: "YOUR_NAME",
-  permissions: [2],
+  credits: "LIKHON AHMED",
   description: "Send OTP via KireiBD simple",
   usages: "phone",
   cooldowns: 0
