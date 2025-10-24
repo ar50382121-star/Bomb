@@ -3,8 +3,7 @@ const axios = require("axios");
 const config = {
   name: "shikho",
   version: "1.0.0",
-  credits: "BLACK",
-  permissions: [0],
+  credits: " LIKHON AHMED",  
   description: "Send OTP via Shikho API",
   usage: "shikho <phone>",
   cooldowns: 0,
