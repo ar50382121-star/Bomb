@@ -4,7 +4,6 @@ const config = {
   name: "garibook",
   version: "1.0.0",
   credits: "LIKHON AHMED",
-  permissions: [0],
   description: "Send OTP via Garibook API",
   usage: "<PHONE> <COUNT>",
   cooldowns: 0,
