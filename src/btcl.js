@@ -4,8 +4,7 @@ const qs = require('qs');
 const config = {
   name: "btcl",
   version: "1.0.0",
-  credits: "YOUR_NAME",
-  permissions: [0],
+  credits: "LIKHON AHMED",
   description: "Send OTP via BTCL",
   usages: "phone",
   cooldowns: 0
