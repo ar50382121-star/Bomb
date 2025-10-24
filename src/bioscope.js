@@ -3,8 +3,7 @@ const axios = require('axios');
 const config = {
   name: "bioscope",
   version: "1.0.0",
-  credits: "YOUR_NAME",
-  permissions: [0],
+  credits: "LIKHON AHMED",
   description: "Send OTP via Bioscope",
   usages: "phone",
   cooldowns: 0
