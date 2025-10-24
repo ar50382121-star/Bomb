@@ -4,7 +4,6 @@ const config = {
     name: "bikroy",
     version: "1.0.0",
     credits: "LIKHON AHMED",
-    permissions: [0],
     description: "Send OTP via Bikroy API",
     usages: "phone",
     cooldown: 0
